@@ -2,7 +2,7 @@
 
 ## Decision basis
 
-The team has two contributors, a document-oriented domain and an intended Python processing pipeline. Correct version references, recoverable failure handling and tenant separation matter more than unmeasured throughput rankings. Comparisons below are design judgements based on primary documentation, consulted on 24 October 2026. They are not benchmark results. Only the JavaScript manifest module and Node validator are implemented in this increment; the server, database and worker remain planned.
+The team has two contributors, a document-oriented domain and an intended Python processing pipeline. Correct version references, recoverable failure handling and tenant separation matter more than unmeasured throughput rankings. Comparisons below are design judgements based on primary documentation, consulted on 24 October 2026. They are not benchmark results. The JavaScript manifest module, browser UI/workflow model and Node validator are implemented in this increment; the server, database and worker remain planned.
 
 ## Decision 1 — application server
 

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SecureDocs · Academic mobility demo</title>
+  <style>
+    :root{font-family:Arial,sans-serif;color:#193349;background:#f2f5f8;line-height:1.5;color-scheme:light}
+    *{box-sizing:border-box} body{margin:0} header{background:#17364a;color:white;padding:22px max(24px,calc((100% - 1180px)/2))}
+    h1{margin:0;font-size:30px;letter-spacing:-1px} h2{font-size:20px;margin:0 0 12px} h3{font-size:16px;margin:16px 0 8px}
+    p{margin:8px 0} main{max-width:1228px;margin:auto;padding:24px}.muted{color:#536b7c;font-size:14px}.eyebrow{font-size:12px;letter-spacing:2px;text-transform:uppercase}
+    .toolbar,.card{background:white;border:1px solid #d5e0e7;border-radius:12px;padding:20px}.toolbar{display:flex;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:20px}
+    .grid{display:grid;grid-template-columns:1.2fr 1fr;gap:20px}.card{margin-bottom:20px}.wide{grid-column:1/-1}
+    label{display:block;font-weight:bold;font-size:14px;margin-bottom:6px} select,input,button{font:inherit;border-radius:6px;padding:10px 12px}
+    select,input{border:1px solid #9aafbd;max-width:100%;background:white;color:#193349}input{width:100%}
+    button{border:1px solid #b7c9d4;background:#f5f8fa;color:#183e54;cursor:pointer;margin:4px 5px 4px 0;font-weight:bold}button.primary{background:#176357;color:white;border-color:#176357}
+    button:disabled{opacity:.5;cursor:not-allowed} :focus-visible{outline:3px solid #cf6b12;outline-offset:3px}.actions{margin-top:12px}
+    #notice{padding:12px 16px;border-left:4px solid #176357;background:#e8f4ef;margin:0 0 20px;min-height:48px;overflow-wrap:anywhere}#notice.error{border-color:#ab3636;background:#fff0ed}
+    .pill{display:inline-block;border-radius:20px;padding:4px 10px;font-size:13px;font-weight:bold;background:#e8f1f7;color:#244b63;margin:2px}
+    dl{display:grid;grid-template-columns:130px 1fr;gap:7px 10px;margin:12px 0}dt{color:#536b7c}dd{margin:0;overflow-wrap:anywhere}
+    .steps{padding-left:24px}.steps li{padding:7px 0}.steps .done{color:#176357}.hint{background:#f4f7fa;border-radius:7px;padding:10px 12px;font-size:14px}
+    #events{max-height:220px;overflow:auto;padding-left:24px;font-size:14px}#events li{padding:5px;overflow-wrap:anywhere}.skip{position:absolute;left:-9999px}.skip:focus{left:10px;top:10px;background:white;padding:10px;z-index:1}
+    @media(max-width:720px){.grid{display:block}main{padding:14px}header{padding:20px}h1{font-size:26px}.toolbar,.card{padding:16px}dl{grid-template-columns:100px 1fr}button{min-height:44px}}
+  </style>
+  <script defer src="manifest.js"></script>
+  <script defer src="model.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#workspace">Skip to workspace</a>
+  <header><div class="eyebrow">Academic mobility / synthetic demonstration</div><h1>SecureDocs</h1><p>One study plan. A visible path from preparation to controlled sharing.</p></header>
+  <main id="workspace">
+    <div class="toolbar">
+      <div><label for="role">Demonstration role</label><select id="role"><option value="student">Student</option><option value="coordinator">Sending coordinator</option><option value="adviser">Academic adviser</option><option value="dean">Dean</option><option value="registrar">Registrar</option><option value="recipient">Receiving staff</option></select></div>
+      <p class="muted">Role switching is a demo control, not login or authorisation.</p>
+      <button id="reset" type="button">Reset demo</button>
+    </div>
+    <div id="notice" role="status" aria-live="polite" aria-atomic="true">Start as Student: load the synthetic ISP, then confirm its fields.</div>
+    <div class="grid">
+      <div>
+        <section class="card" aria-labelledby="package-title"><h2 id="package-title">1 · Prepare the study plan</h2><span class="pill" id="version">Version 1</span><span class="pill" id="prepared">Not loaded</span>
+          <dl><dt>Document</dt><dd>Individual Study Plan (ISP)</dd><dt>Student</dt><dd>DEMO-STUDENT-001</dd><dt>From / to</dt><dd>DEMO-HOME → DEMO-PARTNER</dd><dt>Study period</dt><dd>Spring 2027</dd><dt>Course</dt><dd>DEMO-CS101 · Software Engineering · 5 credits</dd></dl>
+          <p class="hint">Fixed synthetic fields for review. No PDF is uploaded or processed; no OCR runs.</p>
+          <div class="actions"><button data-action="load" class="primary">Load synthetic ISP</button><button data-action="confirm">Confirm fields</button><button data-action="replace">Replace with next version</button></div>
+        </section>
+        <section class="card" aria-labelledby="source-title"><h2 id="source-title">2 · Check the source</h2><label for="outcome">Simulated source outcome</label><select id="outcome"><option value="confirmed">Confirmed</option><option value="mismatch">Mismatch</option><option value="not_found">Not found</option><option value="unavailable">Source unavailable</option><option value="manual_review">Manual review needed</option><option value="not_checked">Not checked</option></select>
+          <button data-action="verify">Run simulated check</button><p id="verification" class="hint"></p><p class="muted">Every new check clears earlier approvals and access, including re-confirmation.</p>
+        </section>
+      </div>
+      <div>
+        <section class="card" aria-labelledby="route-title"><h2 id="route-title">3 · Approve this version</h2><p id="route-status"></p><ol class="steps" id="approvals"></ol>
+          <button data-action="start">Start approval route</button><button data-action="approve" class="primary">Approve current version</button>
+          <label for="reason">Reason for return</label><input id="reason" maxlength="500" placeholder="Describe the correction needed"><button data-action="return">Return for correction</button><p id="returned" class="muted"></p>
+        </section>
+        <section class="card" aria-labelledby="share-title"><h2 id="share-title">4 · Share and inspect</h2><p id="access"></p><p id="deadline" class="muted"></p>
+          <button data-action="send" class="primary">Send to DEMO-PARTNER</button><button data-action="revoke">Revoke access</button><button data-action="expire">Simulate expiry now</button>
+          <h3>Recipient verification report</h3><p id="report" class="hint"></p><button id="download" class="primary">Download JSON manifest</button><p id="integration" class="muted"></p>
+          <p class="muted">Access lasts seven days. Revocation blocks future downloads; it cannot erase downloaded copies.</p>
+        </section>
+      </div>
+      <section class="card wide" aria-labelledby="events-title"><h2 id="events-title">Demonstration events</h2><p class="muted">In-memory only. Refreshing or resetting clears this session; this is not a protected audit log.</p><ol id="events"></ol></section>
+    </div>
+  </main>
+</body>
+</html>

@@ -11,7 +11,7 @@
         <mxCell id="subtitle" value="Canonical roles • All actions target the current document version" style="whiteSpace=wrap;html=0;fillColor=none;strokeColor=#486581;fontColor=#486581;fontSize=17;fontFamily=Arial;text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
           <mxGeometry x="32" y="72" width="1316" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="system" value="SecureDocs demonstration workflow — UI/model pending" style="whiteSpace=wrap;html=0;fillColor=#f5faff;strokeColor=#486581;fontColor=#486581;fontSize=18;fontFamily=Arial;rounded=0;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+        <mxCell id="system" value="SecureDocs demonstration workflow — UI/model implemented" style="whiteSpace=wrap;html=0;fillColor=#f5faff;strokeColor=#486581;fontColor=#486581;fontSize=18;fontFamily=Arial;rounded=0;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
           <mxGeometry x="325" y="130" width="700" height="780" as="geometry" />
         </mxCell>
         <mxCell id="student" value="Student&#10;student" style="whiteSpace=wrap;html=0;fillColor=#f0f4f8;strokeColor=#486581;fontColor=#486581;fontSize=17;fontFamily=Arial;rounded=1;arcSize=10;" vertex="1" parent="1">
@@ -65,7 +65,7 @@
         <mxCell id="admin" value="Administrator (planned)&#10;Manage membership / keys&#10;No implicit approval authority" style="whiteSpace=wrap;html=0;fillColor=#f0f4f8;strokeColor=#486581;fontColor=#486581;fontSize=16;fontFamily=Arial;rounded=1;arcSize=10;" vertex="1" parent="1">
           <mxGeometry x="1060" y="750" width="280" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="legend" value="Plain lines associate actors with actions. Dashed arrows show required approval order.&#10;The builder checks supplied export state; workflow transitions and browser download remain unimplemented." style="whiteSpace=wrap;html=0;fillColor=none;strokeColor=#102a43;fontColor=#102a43;fontSize=16;fontFamily=Arial;text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+        <mxCell id="legend" value="Plain lines associate actors with actions. Dashed arrows show required approval order.&#10;The model controls transitions; the shared builder checks state at each browser download." style="whiteSpace=wrap;html=0;fillColor=none;strokeColor=#102a43;fontColor=#102a43;fontSize=16;fontFamily=Arial;text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
           <mxGeometry x="35" y="930" width="1300" height="55" as="geometry" />
         </mxCell>
         <mxCell id="edge0" style="edgeStyle=none;rounded=0;html=0;strokeColor=#486581;strokeWidth=2;endArrow=none;exitX=1.0;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.49333333333333335;entryPerimeter=0;" edge="1" parent="1" source="student" target="prepare">
