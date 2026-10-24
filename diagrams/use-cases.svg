@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="1010" viewBox="0 0 1380 1010" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">SecureDocs | Use cases</title>
+<desc id="svg-desc">Canonical roles • All actions target the current document version</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#486581"/></marker></defs>
+<rect width="1380" height="1010" fill="#fff"/>
+<rect x="325" y="130" width="700" height="780" rx="0" fill="#f5faff" stroke="#486581" stroke-width="2"/>
+<text x="337" y="156.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">SecureDocs demonstration workflow — UI/model pending</text>
+<path d="M 275 216 L 390 222" fill="none" stroke="#486581" stroke-width="2"/>
+<path d="M 275 361 L 390 332" fill="none" stroke="#486581" stroke-width="2"/>
+<path d="M 275 526 L 390 522" fill="none" stroke="#486581" stroke-width="2"/>
+<path d="M 275 636 L 390 632" fill="none" stroke="#486581" stroke-width="2"/>
+<path d="M 275 746 L 390 742" fill="none" stroke="#486581" stroke-width="2"/>
+<path d="M 275 866 L 390 852" fill="none" stroke="#486581" stroke-width="2"/>
+<path d="M 275 361 L 300 361 L 300 425 L 875 425 L 875 395" fill="none" stroke="#486581" stroke-width="2"/>
+<path d="M 560 560 L 560 595" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<path d="M 560 670 L 560 705" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="44" y="60.0" text-anchor="start" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#102a43">SecureDocs | Use cases</text>
+<text x="44" y="97.0" text-anchor="start" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Canonical roles • All actions target the current document version</text>
+<rect x="40" y="180" width="235" height="72" rx="10" fill="#f0f4f8" stroke="#486581" stroke-width="2"/>
+<text x="157.5" y="210.475" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Student</text>
+<text x="157.5" y="233.425" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">student</text>
+<rect x="40" y="325" width="235" height="72" rx="10" fill="#f0f4f8" stroke="#486581" stroke-width="2"/>
+<text x="157.5" y="355.47499999999997" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Coordinator</text>
+<text x="157.5" y="378.42499999999995" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">coordinator</text>
+<rect x="40" y="490" width="235" height="72" rx="10" fill="#f0f4f8" stroke="#486581" stroke-width="2"/>
+<text x="157.5" y="520.475" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Academic adviser</text>
+<text x="157.5" y="543.4250000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">adviser</text>
+<rect x="40" y="600" width="235" height="72" rx="10" fill="#f0f4f8" stroke="#486581" stroke-width="2"/>
+<text x="157.5" y="630.475" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Dean</text>
+<text x="157.5" y="653.4250000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">dean</text>
+<rect x="40" y="710" width="235" height="72" rx="10" fill="#f0f4f8" stroke="#486581" stroke-width="2"/>
+<text x="157.5" y="740.475" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Registrar</text>
+<text x="157.5" y="763.4250000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">registrar</text>
+<rect x="40" y="830" width="235" height="72" rx="10" fill="#f0f4f8" stroke="#486581" stroke-width="2"/>
+<text x="157.5" y="860.475" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Recipient</text>
+<text x="157.5" y="883.4250000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">recipient</text>
+<ellipse cx="560.0" cy="222.5" rx="170.0" ry="37.5" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="560.0" y="216.975" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Prepare / replace ISP</text>
+<text x="560.0" y="239.925" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Confirm required fields</text>
+<ellipse cx="560.0" cy="332.5" rx="170.0" ry="37.5" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="560.0" y="326.97499999999997" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Check source and start route</text>
+<text x="560.0" y="349.92499999999995" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Only confirmed may proceed</text>
+<ellipse cx="875.0" cy="347.5" rx="115.0" ry="47.5" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="875.0" y="342.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Grant / revoke access</text>
+<text x="875.0" y="363.90000000000003" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Recipient + deadline</text>
+<ellipse cx="560.0" cy="522.5" rx="170.0" ry="37.5" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="560.0" y="516.975" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Decide stage 1</text>
+<text x="560.0" y="539.9250000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Adviser: approve / return</text>
+<ellipse cx="560.0" cy="632.5" rx="170.0" ry="37.5" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="560.0" y="626.975" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Decide stage 2</text>
+<text x="560.0" y="649.9250000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Dean: approve / return</text>
+<ellipse cx="560.0" cy="742.5" rx="170.0" ry="37.5" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="560.0" y="736.975" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Decide stage 3</text>
+<text x="560.0" y="759.9250000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Registrar: approve / return</text>
+<rect x="770" y="575" width="220" height="95" rx="10" fill="#f0f4f8" stroke="#486581" stroke-width="2"/>
+<text x="880.0" y="607.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#486581">Return requires a reason</text>
+<text x="880.0" y="627.75" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#486581">Ends the current route</text>
+<text x="880.0" y="648.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#486581">Restart is explicit</text>
+<ellipse cx="560.0" cy="852.5" rx="170.0" ry="37.5" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="560.0" y="846.975" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Download manifest</text>
+<text x="560.0" y="869.9250000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Active grant; now &lt; expiry</text>
+<rect x="1060" y="180" width="280" height="215" rx="10" fill="#e6f6ed" stroke="#216e4e" stroke-width="2"/>
+<text x="1200.0" y="228.29999999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#216e4e">Export gate</text>
+<text x="1200.0" y="249.89999999999998" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#216e4e"></text>
+<text x="1200.0" y="271.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#216e4e">Current confirmed version</text>
+<text x="1200.0" y="293.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#216e4e">Three ordered approvals</text>
+<text x="1200.0" y="314.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#216e4e">Recipient role + active grant</text>
+<text x="1200.0" y="336.29999999999995" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#216e4e">verifiedAt ≤ sentAt</text>
+<text x="1200.0" y="357.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#216e4e">sentAt ≤ now &lt; expiresAt</text>
+<rect x="1060" y="470" width="280" height="215" rx="10" fill="#fff4df" stroke="#805b10" stroke-width="2"/>
+<text x="1200.0" y="518.3000000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#805b10">Production precondition</text>
+<text x="1200.0" y="539.9000000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#805b10"></text>
+<text x="1200.0" y="561.5000000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#805b10">Authentication + tenant /</text>
+<text x="1200.0" y="583.1000000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#805b10">object permission check</text>
+<text x="1200.0" y="604.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#805b10">on every protected action</text>
+<text x="1200.0" y="626.3000000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#805b10"></text>
+<text x="1200.0" y="647.9000000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#805b10">Not supplied by role selection</text>
+<rect x="1060" y="750" width="280" height="125" rx="10" fill="#f0f4f8" stroke="#486581" stroke-width="2"/>
+<text x="1200.0" y="796.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Administrator (planned)</text>
+<text x="1200.0" y="818.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Manage membership / keys</text>
+<text x="1200.0" y="839.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">No implicit approval authority</text>
+<text x="47" y="954.0" text-anchor="start" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#102a43">Plain lines associate actors with actions. Dashed arrows show required approval order.</text>
+<text x="47" y="975.6" text-anchor="start" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#102a43">The builder checks supplied export state; workflow transitions and browser download remain unimplemented.</text>
+</svg>

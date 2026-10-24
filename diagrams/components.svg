@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1180" viewBox="0 0 1440 1180" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">SecureDocs | Components and boundaries</title>
+<desc id="svg-desc">Current module and local validator above; future protected service below</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#486581"/></marker></defs>
+<rect width="1440" height="1180" fill="#fff"/>
+<rect x="35" y="135" width="820" height="300" rx="0" fill="#f5faff" stroke="#486581" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="47" y="161.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">User-controlled browser — no security boundary</text>
+<rect x="900" y="135" width="505" height="300" rx="0" fill="#f0f8f2" stroke="#486581" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="912" y="161.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">Local Node.js validation — implemented</text>
+<rect x="35" y="495" width="1370" height="585" rx="0" fill="#fafbfc" stroke="#486581" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="47" y="521.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">Planned production architecture — not implemented in this increment</text>
+<path d="M 285 265 L 350 265" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="317" y="248" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">state</text>
+<path d="M 580 265 L 655 265" fill="none" stroke="#486581" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="618" y="248" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">build</text>
+<path d="M 825 265 L 950 252" fill="none" stroke="#486581" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="886" y="238" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">local file</text>
+<path d="M 1040 335 L 1040 295" fill="none" stroke="#486581" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 1250 335 L 1250 295" fill="none" stroke="#486581" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 265 628 L 340 628" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="302" y="612" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">HTTPS</text>
+<path d="M 570 628 L 650 628" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="610" y="612" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">authorise</text>
+<path d="M 930 628 L 1040 628" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="986" y="612" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">sign / verify</text>
+<path d="M 720 685 L 720 725 L 455 725 L 455 775" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="573" y="714" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">transaction</text>
+<path d="M 790 685 L 790 775" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="790" y="743" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">private bytes</text>
+<path d="M 880 685 L 880 710 L 1190 710 L 1190 775" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="1100" y="700" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">events</text>
+<path d="M 385 875 L 385 905 L 215 905 L 215 930" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="298" y="895" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">leased jobs</text>
+<path d="M 365 980 L 650 980" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="508" y="965" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">allowlist / timeouts / provenance</text>
+<text x="44" y="60.0" text-anchor="start" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#102a43">SecureDocs | Components and boundaries</text>
+<text x="44" y="97.0" text-anchor="start" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Current module and local validator above; future protected service below</text>
+<rect x="65" y="215" width="220" height="100" rx="10" fill="#fff4df" stroke="#805b10" stroke-width="2"/>
+<text x="175.0" y="248.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#805b10">UI + workflow model</text>
+<text x="175.0" y="270.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#805b10">Planned</text>
+<text x="175.0" y="293.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#805b10">index / app / model</text>
+<rect x="350" y="215" width="230" height="100" rx="10" fill="#e6f6ed" stroke="#216e4e" stroke-width="2"/>
+<text x="465.0" y="248.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#216e4e">manifest.js</text>
+<text x="465.0" y="270.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#216e4e">Pure builder: implemented</text>
+<text x="465.0" y="293.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#216e4e">Explicit role + now</text>
+<rect x="655" y="215" width="170" height="100" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="740.0" y="248.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">JSON manifest</text>
+<text x="740.0" y="270.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Schema 1.0</text>
+<text x="740.0" y="293.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Synthetic ISP</text>
+<rect x="950" y="210" width="390" height="85" rx="10" fill="#e6f6ed" stroke="#216e4e" stroke-width="2"/>
+<text x="1145.0" y="246.65" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#216e4e">validate-manifest.cjs</text>
+<text x="1145.0" y="270.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#216e4e">Ajv 2020-12 + semantic invariants</text>
+<rect x="950" y="335" width="180" height="65" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="1040.0" y="372.75" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#486581">package.schema.json</text>
+<rect x="1160" y="335" width="180" height="65" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="1250.0" y="373.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Synthetic fixture</text>
+<text x="67" y="369.0" text-anchor="start" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#102a43">Browser and CommonJS exports are equivalent. No network, OCR or signatures.</text>
+<text x="67" y="390.6" text-anchor="start" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#102a43">Actual browser download is pending; CLI validity does not establish live access.</text>
+<rect x="65" y="585" width="200" height="85" rx="10" fill="#fff4df" stroke="#486581" stroke-width="2"/>
+<text x="165.0" y="622.3000000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Web UI</text>
+<text x="165.0" y="643.9000000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Authenticated requests</text>
+<rect x="340" y="575" width="230" height="110" rx="10" fill="#fff4df" stroke="#486581" stroke-width="2"/>
+<text x="455.0" y="613.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">API / access control</text>
+<text x="455.0" y="635.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">User + tenant + object</text>
+<text x="455.0" y="658.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Recheck each action</text>
+<rect x="650" y="575" width="280" height="110" rx="10" fill="#fff4df" stroke="#486581" stroke-width="2"/>
+<text x="790.0" y="613.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Package / workflow / export</text>
+<text x="790.0" y="635.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Immutable versions + decisions</text>
+<text x="790.0" y="658.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Atomic grant / outbox</text>
+<rect x="1040" y="575" width="300" height="100" rx="10" fill="#fff4df" stroke="#486581" stroke-width="2"/>
+<text x="1190.0" y="619.475" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Trust / key service</text>
+<text x="1190.0" y="642.4250000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Signature profile to be agreed</text>
+<rect x="340" y="775" width="230" height="100" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="455.0" y="808.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">PostgreSQL</text>
+<text x="455.0" y="830.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Metadata / grants / jobs</text>
+<text x="455.0" y="853.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Transactional constraints</text>
+<rect x="650" y="775" width="280" height="100" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="790.0" y="819.475" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Private object storage</text>
+<text x="790.0" y="842.4250000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Validated document bytes</text>
+<rect x="1040" y="775" width="300" height="100" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="1190.0" y="819.475" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Restricted audit store</text>
+<text x="1190.0" y="842.4250000000001" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Separate protected checkpoints</text>
+<rect x="65" y="930" width="300" height="100" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="215.0" y="964.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Isolated worker / source adapters</text>
+<text x="215.0" y="985.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Extraction + bounded retries</text>
+<text x="215.0" y="1007.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">No unapproved external fetch</text>
+<rect x="650" y="930" width="280" height="100" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="790.0" y="964.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">External platforms / registries</text>
+<text x="790.0" y="985.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Conditional authorised access</text>
+<text x="790.0" y="1007.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Outside team control</text>
+<text x="47" y="1125.0" text-anchor="start" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#102a43">Green: implemented local component. Amber: pending or planned. Dashed lower-lane arrows: future service interactions.</text>
+<text x="47" y="1147.95" text-anchor="start" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#102a43">Real authorisation belongs on the server; schema checks, a synthetic hash and browser state cannot provide it.</text>
+</svg>
