@@ -1,5 +1,7 @@
 # 4 Existing system comparison
 
+Five systems are compared using nine consistent criteria and official documentation. EWP is the closest mobility-process comparator, while EPVO/NOBD and digital-credential systems inform source checks and trust design. SecureDocs targets a locally defined approval workflow whose benefit and partner compatibility still need evaluation.
+
 ## Scope and evidence
 
 Five systems are compared against nine consistent criteria. EPVO and NOBD are local verification sources; Europass EDC and Blockcerts support digital credentials; Erasmus Without Paper (EWP) addresses inter-university mobility exchanges. These are different layers, so the comparison concerns suitability for the mobility scenario rather than a ranking of interchangeable products. Official references were consulted on 24 October 2026.
@@ -20,7 +22,7 @@ Five systems are compared against nine consistent criteria. EPVO and NOBD are lo
 
 ## Interpretation and limitations
 
-The Ministry's EPVO material [S1] links diploma generation to registered student information and directs employers to verification. NOBD's official catalogue and indexed form [S2] identify a different diploma category and inputs. Neither establishes permission for unattended team queries. Direct automated retrieval of the NOBD form returned 403 during this review; no conclusion about a production outage follows.
+The Ministry's EPVO material [S1] links diploma generation to registered student information and directs employers to verification. NOBD's official catalogue and indexed form [S2] identify a different diploma category and inputs. Neither establishes permission for unattended team queries. Access conditions require confirmation with the source operator.
 
 Europass [S3] explicitly describes mandatory electronic seals for EDCs and holder sharing. This is useful for reasoning about origin and disclosure, but does not make a scanned document equivalent to a sealed credential. Blockcerts [S4] exposes verification stages, including issuer/revocation information; it does not itself establish the institution's local ISP approval policy. The lack of that policy in the cited documentation is recorded as unknown, not as missing product functionality.
 

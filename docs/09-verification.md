@@ -1,5 +1,7 @@
 # 9 Verification and evaluation plan
 
+Verification covers workflow correctness and manifest integration using synthetic fixtures and explicit clocks. A separate planned experiment compares the prototype with email-style exchange and a manual register under matching conditions. Requirement-to-test mapping distinguishes observed demonstration checks from unmeasured security, extraction and performance targets.
+
 ## Evaluation layers
 
 Evaluation separates implemented demonstration correctness, future server security, extraction quality and benefit to the university process. A passing state-machine or schema test cannot establish user benefit, authenticity, tenant isolation or legal recognition. Targets in this section are planned thresholds, not measurements. The current executable datasets are synthetic state fixtures in `tests/model.test.cjs`, the existing manifest/contract tests and `contracts/sample-package.json`.
@@ -66,4 +68,4 @@ From the repository root, `npm ci` installs locked dependencies and `npm test` r
 
 Natural expiry can be reproduced in an isolated automated browser by setting its clock before preparation, sending, then advancing to one millisecond before the displayed deadline and to exact equality. The page must recheck at the click, including when its display has not refreshed. A missing `manifest.js` must show integration pending and disable export. Negative actions must yield no download event. Browser role switching demonstrates policy only; it is intentionally user-controlled.
 
-The implemented demonstration has undergone model, manifest, contract and browser integration checks. Final system evaluation remains planned. No measured baseline improvement, OCR accuracy, load result, recovery result or completed institutional usability study is asserted in this increment.
+The observed checks cover demonstration integration. The tables above identify the experiments and targets that remain unmeasured.

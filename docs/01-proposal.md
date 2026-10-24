@@ -1,5 +1,7 @@
 # 1 Project proposal
 
+SecureDocs focuses on version consistency and traceability during academic-mobility document exchange. The first increment demonstrates one synthetic Individual Study Plan; the final project retains a three-organisation objective. Staff evidence informs the workflow, while the baseline evaluation will test its practical benefit.
+
 ## Project and participants
 
 **Development of a Secure System for Exchanging Digital Educational Documents between Educational Organizations** (SecureDocs).
@@ -34,7 +36,7 @@ The findings below are attributed paraphrases of the available discussion notes 
 | S1, written consultation | Cryptographic protection for inter-organisational exchange was suggested. | Plan trust/key management and integrity controls separately from the synthetic demonstration (FR-16; NFR-01/03; sections 5 and 7). |
 | S1, written consultation | The supervisor requested a presentation of the proposed solution for further discussion. | Define a scoped demonstration and expected outcomes; consultation is not approval of the final submission. |
 
-The problem is therefore package consistency and traceability: which document was received, what supports its provenance, which version was approved, and who may obtain the result. I1 and I2 provide participant observations; S1 contributes the supervisor's reported practices and expert suggestions. The resulting priorities, canonical roles and controls are engineering decisions. The evidence does not establish forgery frequency or measured processing delays. Suggested sources and integrations do not establish API availability, permission to integrate, deployment approval or implemented capabilities.
+The problem is therefore package consistency and traceability: which document was received, what supports its provenance, which version was approved, and who may obtain the result. I1 and I2 provide participant observations; S1 contributes the supervisor's reported practices and expert suggestions. The resulting priorities, canonical roles and controls are engineering decisions. [Section 2](02-relevance.md#conflicts-uncertainty-and-verification-gaps) records the evidence and access gaps.
 
 The evidence qualification against the rubric and the remaining source-verification gaps are recorded in [section 2](02-relevance.md#evidence-and-method).
 
@@ -51,7 +53,7 @@ The final-project aim remains to develop and evaluate a secure exchange system t
 
 ## Research questions
 
-Research questions are whether the process reduces repeated actions and completeness errors against email plus a manual register; whether a replacement version can ever reuse stale approval; and whether field extraction helps preparation while leaving authenticity decisions to appropriate evidence and authority. No improvement percentage or time saving has yet been measured.
+Research questions are whether the process reduces repeated actions and completeness errors against email plus a manual register; whether a replacement version can ever reuse stale approval; and whether field extraction helps preparation while leaving authenticity decisions to appropriate evidence and authority.
 
 ## Expected outcomes
 
@@ -71,8 +73,8 @@ Expected final outputs are a web application, exchange specification, permitted 
 
 ## Current increment and boundaries
 
-The current implementation includes the assessed analysis/design sections, three diagrams, a pure synthetic manifest builder, the existing schema 1.0 and fixture, a standard validator and the interactive workflow with deterministic tests. The demonstration covers one synthetic ISP: prepare → confirm fields → simulate provenance checking → adviser/dean/registrar approval → grant → download → revoke/expire. Replacement and source rechecking invalidate previous decisions/access. The browser-generated download has been checked with the active-manifest validator. It uses synthetic data rather than real PDF uploads; final report assembly and project-management materials remain separate work.
+The current implementation includes the assessed analysis/design sections, three diagrams, a pure synthetic manifest builder, the existing schema 1.0 and fixture, a standard validator and the interactive workflow with deterministic tests. The demonstration covers one synthetic ISP: prepare → confirm fields → simulate provenance checking → adviser/dean/registrar approval → grant → download → revoke/expire. Replacement and source rechecking invalidate previous decisions/access. The browser-generated download has been checked with the active-manifest validator. It uses synthetic data rather than real PDF uploads.
 
-Production authentication, tenant isolation, PDF processing/OCR, external registry calls, signatures, protected storage and a persistent audit service are planned work, not delivered security controls. Browser role selection is not authentication. A structurally valid JSON file is not proof of authenticity, institutional recognition or legal signature validity.
+The common implementation limits are collected in [section 7](07-architecture.md#current-limitations).
 
-The project does not replace MyDU or a government registry. Selection, visas, automatic credit recognition, a certification authority, blockchain and training a large model from scratch are outside the first implementation. A portfolio could later present already supported data without upgrading unverified statements to verified facts. Evaluation will compare the implementation with the stated baseline and acceptance criteria; no measured improvement is claimed.
+The project does not replace MyDU or a government registry. Selection, visas, automatic credit recognition, a certification authority, blockchain and training a large model from scratch are outside the first implementation. A portfolio could later present already supported data without upgrading unverified statements to verified facts. [Section 9](09-verification.md) defines the baseline comparison and acceptance criteria.

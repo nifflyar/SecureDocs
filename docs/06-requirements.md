@@ -1,5 +1,7 @@
 # 6 Requirements specification
 
+The requirements prioritise confirmed fields, explicit source outcomes, ordered approvals and controlled exchange of the current document version. The implemented demonstration covers the synthetic workflow and shared JSON export; production capabilities retain their stated priorities and acceptance criteria. Stable role identifiers and a shared state interface allow the UI, workflow model and manifest builder to connect.
+
 ## Scope, priority and evidence
 
 **M** = must, **S** = should, **C** = could. **Current** means the implemented builder/validator; **Current demo** means the implemented interactive UI and workflow model; **Production** means a future protected service. A requirement can span these levels without claiming that the production control exists. Model, manifest, contract and browser checks exercise demonstration acceptance conditions; production conditions and performance targets remain planned. The requirement-to-test mapping is in section 9.
@@ -60,7 +62,7 @@ Canonical roles are `student`, `coordinator`, `adviser`, `dean`, `registrar`, `r
 
 Load `prototype/manifest.js` as a classic script. Call `SecureDocsManifest.buildManifest(state, {role, now})` at the download action; CommonJS callers use `require('./prototype/manifest.js').buildManifest`. It returns a new plain manifest or throws an English `Error`. It reads no model, network or current clock. The caller supplies `now`. `parseTimestamp` is also exported for the Node validator to share the same date rules; UI code needs only `buildManifest`.
 
-Time strings follow a documented ISO 8601 profile: `YYYY-MM-DDTHH:mm:ss[.SSS]Z` or a numeric `±HH:MM` offset; fractional seconds may have one to three digits. Valid Gregorian dates, years 0001–9999 and known offsets are required. Missing zones, unknown `-00:00`, leap seconds, hour 24 and finer-than-millisecond precision are rejected rather than silently normalised. Compare instants, not lexicographic strings.
+Timestamps require an explicit timezone and are compared as instants. The shared `parseTimestamp` implementation in [manifest.js](../prototype/manifest.js) defines the unchanged accepted format and rejects invalid or ambiguous dates; the [manifest tests](../tests/manifest.test.cjs) preserve the edge cases.
 
 For export require `loaded=true`, `fields=true`, `started=true`, an events array, `verification=confirmed`, `grant=active`, `sentVersion=version`, exactly adviser/dean/registrar approvals at `version`, and **`verifiedAt <= sentAt <= now < expiresAt`**. The builder does not change state or grant access. The workflow model shall expose `act(state, role, type, value, {now})`, keeping the fifth argument optional and the original four-argument call shape. Deterministic model tests must supply a clock.
 
