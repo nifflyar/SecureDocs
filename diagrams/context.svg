@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">SecureDocs | System context</title>
+<desc id="svg-desc">Intended mobility system • Current increment: synthetic export and validation only</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#486581"/></marker></defs>
+<rect width="1280" height="900" fill="#fff"/>
+<rect x="35" y="140" width="285" height="370" rx="0" fill="#f0f4f8" stroke="#486581" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="47" y="166.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">Sending organisation</text>
+<rect x="405" y="140" width="430" height="420" rx="0" fill="#eaf4fb" stroke="#486581" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="417" y="166.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">SecureDocs responsibility boundary</text>
+<rect x="925" y="140" width="320" height="370" rx="0" fill="#f0f4f8" stroke="#486581" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="937" y="166.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">Receiving organisations</text>
+<path d="M 295 252 L 445 280" fill="none" stroke="#486581" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="370" y="235" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Check / route / share</text>
+<path d="M 295 407 L 445 395" fill="none" stroke="#486581" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="370" y="448" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Approve version</text>
+<path d="M 795 280 L 950 252" fill="none" stroke="#486581" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="873" y="235" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Package / evidence</text>
+<path d="M 795 395 L 950 407" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="876" y="451" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Future exchange</text>
+<path d="M 315 660 L 365 660 L 365 330 L 445 330" fill="none" stroke="#486581" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="250" y="590" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Prepare / confirm</text>
+<path d="M 620 435 L 620 655" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="620" y="596" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Permitted source adapters</text>
+<path d="M 955 660 L 870 660 L 870 475 L 710 475 L 710 435" fill="none" stroke="#486581" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="1048" y="588" font-family="Arial, sans-serif" font-size="15" fill="#334e68" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Scoped membership / keys</text>
+<text x="44" y="60.0" text-anchor="start" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#102a43">SecureDocs | System context</text>
+<text x="44" y="97.0" text-anchor="start" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Intended mobility system • Current increment: synthetic export and validation only</text>
+<rect x="60" y="210" width="235" height="85" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="177.5" y="246.65" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">Coordinator</text>
+<text x="177.5" y="270.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">coordinator</text>
+<rect x="60" y="350" width="235" height="115" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="177.5" y="391.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Academic adviser / Dean</text>
+<text x="177.5" y="413.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Registrar</text>
+<text x="177.5" y="434.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">adviser → dean → registrar</text>
+<rect x="445" y="240" width="350" height="195" rx="10" fill="#d8eaf6" stroke="#486581" stroke-width="2"/>
+<text x="620.0" y="295.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">Versioned package + provenance</text>
+<text x="620.0" y="319.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">Ordered current approvals</text>
+<text x="620.0" y="343.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">Recipient-specific access grant</text>
+<text x="620.0" y="368.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581"></text>
+<text x="620.0" y="392.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">FR-04 / 06 / 07 / 10 / 11</text>
+<rect x="950" y="210" width="270" height="85" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="1085.0" y="246.65" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">Receiving staff</text>
+<text x="1085.0" y="270.95" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">recipient</text>
+<rect x="950" y="355" width="270" height="105" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="1085.0" y="390.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Third organisation</text>
+<text x="1085.0" y="413.45" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Final-project objective</text>
+<text x="1085.0" y="436.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#486581">Not in current demo</text>
+<rect x="55" y="610" width="260" height="100" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="185.0" y="654.15" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">Student</text>
+<text x="185.0" y="678.4499999999999" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">student</text>
+<rect x="445" y="655" width="350" height="105" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="620.0" y="689.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">University platforms / registries</text>
+<text x="620.0" y="713.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">External trust boundary</text>
+<text x="620.0" y="738.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">No confirmed API access</text>
+<rect x="955" y="610" width="265" height="100" rx="10" fill="#ffffff" stroke="#486581" stroke-width="2"/>
+<text x="1087.5" y="644.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Organisation administrator</text>
+<text x="1087.5" y="665.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Production role only</text>
+<text x="1087.5" y="687.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">No automatic approval right</text>
+<text x="47" y="820.0" text-anchor="start" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#102a43">Solid arrows: intended mobility interactions. Dashed arrows: conditional production integrations.</text>
+<text x="47" y="842.95" text-anchor="start" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#102a43">Browser roles, synthetic IDs and manifest validity are not authentication or institutional trust.</text>
+</svg>

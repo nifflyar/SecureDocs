@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "demo": true,
+  "packageId": "SD-DEMO-001",
+  "senderOrganizationId": "DEMO-HOME",
+  "recipientOrganizationId": "DEMO-PARTNER",
+  "purpose": "academic_mobility",
+  "documents": [
+    {
+      "documentId": "DOC-DEMO-001",
+      "version": 1,
+      "type": "learning_agreement",
+      "sha256": "b07a05e8e843826674eebcf130f4bbdcb0ea4f1e5e1a2de6b28ddf8cda71c448",
+      "provenance": "manual_confirmed",
+      "verification": {
+        "outcome": "confirmed",
+        "method": "simulated_coordinator_confirmation",
+        "sourceRef": "demo://coordinator/1",
+        "checkedAt": "2026-10-24T00:00:00+05:00",
+        "limitations": [
+          "Synthetic fixture. No external registry was queried. No signature is attached."
+        ]
+      }
+    }
+  ],
+  "approvals": [
+    {
+      "documentId": "DOC-DEMO-001",
+      "version": 1,
+      "role": "adviser",
+      "decision": "approved"
+    },
+    {
+      "documentId": "DOC-DEMO-001",
+      "version": 1,
+      "role": "dean",
+      "decision": "approved"
+    },
+    {
+      "documentId": "DOC-DEMO-001",
+      "version": 1,
+      "role": "registrar",
+      "decision": "approved"
+    }
+  ],
+  "access": {
+    "expiresAt": "2026-10-31T00:00:00+05:00",
+    "status": "active"
+  }
+}
