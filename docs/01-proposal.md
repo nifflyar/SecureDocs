@@ -36,7 +36,7 @@ The findings below are attributed paraphrases of the available discussion notes 
 
 The problem is therefore package consistency and traceability: which document was received, what supports its provenance, which version was approved, and who may obtain the result. I1 and I2 provide participant observations; S1 contributes the supervisor's reported practices and expert suggestions. The resulting priorities, canonical roles and controls are engineering decisions. The evidence does not establish forgery frequency or measured processing delays. Suggested sources and integrations do not establish API availability, permission to integrate, deployment approval or implemented capabilities.
 
-S1 is the third substantive discussion, classified as expert consultation. A relevant operational or user-representative role for the supervisor is not documented, so S1 cannot yet establish fulfilment of the rubric's three-to-five user-representative discussions or substantive agreement with an actual client.
+The evidence qualification against the rubric and the remaining source-verification gaps are recorded in [section 2](02-relevance.md#evidence-and-method).
 
 ## Aim
 
@@ -71,7 +71,7 @@ Expected final outputs are a web application, exchange specification, permitted 
 
 ## Current increment and boundaries
 
-This first implementation covers four assessed design sections, three diagrams, a pure synthetic manifest builder, the existing schema 1.0 and fixture, and a standard validator with deterministic tests. The subsequent interactive demonstration will cover one synthetic ISP: prepare → confirm fields → simulate provenance checking → adviser/dean/registrar approval → grant → download → revoke/expire. It uses synthetic data rather than real PDF uploads.
+The current implementation includes the assessed analysis/design sections, three diagrams, a pure synthetic manifest builder, the existing schema 1.0 and fixture, a standard validator and the interactive workflow with deterministic tests. The demonstration covers one synthetic ISP: prepare → confirm fields → simulate provenance checking → adviser/dean/registrar approval → grant → download → revoke/expire. Replacement and source rechecking invalidate previous decisions/access. The browser-generated download has been checked with the active-manifest validator. It uses synthetic data rather than real PDF uploads; final report assembly and project-management materials remain separate work.
 
 Production authentication, tenant isolation, PDF processing/OCR, external registry calls, signatures, protected storage and a persistent audit service are planned work, not delivered security controls. Browser role selection is not authentication. A structurally valid JSON file is not proof of authenticity, institutional recognition or legal signature validity.
 

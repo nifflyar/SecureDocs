@@ -4,7 +4,7 @@
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#486581"/></marker></defs>
 <rect width="1380" height="1010" fill="#fff"/>
 <rect x="325" y="130" width="700" height="780" rx="0" fill="#f5faff" stroke="#486581" stroke-width="2"/>
-<text x="337" y="156.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">SecureDocs demonstration workflow — UI/model pending</text>
+<text x="337" y="156.0" text-anchor="start" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#486581">SecureDocs demonstration workflow — UI/model implemented</text>
 <path d="M 275 216 L 390 222" fill="none" stroke="#486581" stroke-width="2"/>
 <path d="M 275 361 L 390 332" fill="none" stroke="#486581" stroke-width="2"/>
 <path d="M 275 526 L 390 522" fill="none" stroke="#486581" stroke-width="2"/>
@@ -80,5 +80,5 @@
 <text x="1200.0" y="818.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">Manage membership / keys</text>
 <text x="1200.0" y="839.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#486581">No implicit approval authority</text>
 <text x="47" y="954.0" text-anchor="start" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#102a43">Plain lines associate actors with actions. Dashed arrows show required approval order.</text>
-<text x="47" y="975.6" text-anchor="start" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#102a43">The builder checks supplied export state; workflow transitions and browser download remain unimplemented.</text>
+<text x="47" y="975.6" text-anchor="start" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#102a43">The model controls transitions; the shared builder checks state at each browser download.</text>
 </svg>

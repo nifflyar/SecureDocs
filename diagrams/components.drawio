@@ -8,7 +8,7 @@
         <mxCell id="title" value="SecureDocs | Components and boundaries" style="whiteSpace=wrap;html=0;fillColor=none;strokeColor=#102a43;fontColor=#102a43;fontSize=30;fontFamily=Arial;text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="32" y="22" width="1376" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" value="Current module and local validator above; future protected service below" style="whiteSpace=wrap;html=0;fillColor=none;strokeColor=#486581;fontColor=#486581;fontSize=17;fontFamily=Arial;text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+        <mxCell id="subtitle" value="Current browser workflow and validator above; future protected service below" style="whiteSpace=wrap;html=0;fillColor=none;strokeColor=#486581;fontColor=#486581;fontSize=17;fontFamily=Arial;text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
           <mxGeometry x="32" y="72" width="1376" height="42" as="geometry" />
         </mxCell>
         <mxCell id="browser" value="User-controlled browser — no security boundary" style="whiteSpace=wrap;html=0;fillColor=#f5faff;strokeColor=#486581;fontColor=#486581;fontSize=18;fontFamily=Arial;rounded=0;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;dashed=1;" vertex="1" parent="1">
@@ -17,7 +17,7 @@
         <mxCell id="local" value="Local Node.js validation — implemented" style="whiteSpace=wrap;html=0;fillColor=#f0f8f2;strokeColor=#486581;fontColor=#486581;fontSize=18;fontFamily=Arial;rounded=0;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="135" width="505" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="ui" value="UI + workflow model&#10;Planned&#10;index / app / model" style="whiteSpace=wrap;html=0;fillColor=#fff4df;strokeColor=#805b10;fontColor=#805b10;fontSize=17;fontFamily=Arial;rounded=1;arcSize=10;" vertex="1" parent="1">
+        <mxCell id="ui" value="UI + workflow model&#10;Implemented demo&#10;index / app / model" style="whiteSpace=wrap;html=0;fillColor=#e6f6ed;strokeColor=#216e4e;fontColor=#216e4e;fontSize=17;fontFamily=Arial;rounded=1;arcSize=10;" vertex="1" parent="1">
           <mxGeometry x="65" y="215" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="builder" value="manifest.js&#10;Pure builder: implemented&#10;Explicit role + now" style="whiteSpace=wrap;html=0;fillColor=#e6f6ed;strokeColor=#216e4e;fontColor=#216e4e;fontSize=17;fontFamily=Arial;rounded=1;arcSize=10;" vertex="1" parent="1">
@@ -35,7 +35,7 @@
         <mxCell id="fixture" value="Synthetic fixture" style="whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#486581;fontColor=#486581;fontSize=16;fontFamily=Arial;rounded=1;arcSize=10;" vertex="1" parent="1">
           <mxGeometry x="1160" y="335" width="180" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="now" value="Browser and CommonJS exports are equivalent. No network, OCR or signatures.&#10;Actual browser download is pending; CLI validity does not establish live access." style="whiteSpace=wrap;html=0;fillColor=none;strokeColor=#102a43;fontColor=#102a43;fontSize=16;fontFamily=Arial;text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+        <mxCell id="now" value="Browser and CommonJS exports are equivalent. No network, OCR or signatures.&#10;Browser download checked; CLI validity does not establish live access." style="whiteSpace=wrap;html=0;fillColor=none;strokeColor=#102a43;fontColor=#102a43;fontSize=16;fontFamily=Arial;text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
           <mxGeometry x="55" y="345" width="760" height="60" as="geometry" />
         </mxCell>
         <mxCell id="server" value="Planned production architecture — not implemented in this increment" style="whiteSpace=wrap;html=0;fillColor=#fafbfc;strokeColor=#486581;fontColor=#486581;fontSize=18;fontFamily=Arial;rounded=0;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;dashed=1;" vertex="1" parent="1">
