@@ -1,0 +1,57 @@
+# Local operating-system and editor files
+.DS_Store
+._*
+*~
+*.swp
+*.swo
+
+# Temporary environments and generated caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.uv-cache/
+node_modules/
+coverage/
+.nyc_output/
+work/
+tmp/
+temp/
+
+# Secrets and local credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+credentials.json
+secrets.json
+
+# Raw recordings: never include in the prepared import
+*.[mM]4[aA]
+*.[pP][cC][mM]
+*.[wW][aA][vV]
+*.[mM][pP]3
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[aA][aA][cC]
+*.[fF][lL][aA][cC]
+*.[oO][gG][gG]
+*.[wW][eE][bB][mM]
+
+# Private source inputs and personal educational documents
+private/
+raw/
+recordings/
+real-documents/
+personal-documents/
+
+
