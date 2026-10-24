@@ -1,5 +1,7 @@
 # 10 Project management and risks
 
+The project assigns requirements, architecture and manifest work to Danial and evidence, prototype workflow and evaluation work to Aslan. Tasks and repository references connect these responsibilities to deliverables. Milestones and risks identify dependencies for the remaining implementation and final submission; later schedule changes require agreement.
+
 ## Coordination and responsibilities
 
 Repository: [nifflyar/SecureDocs](https://github.com/nifflyar/SecureDocs). Task tracker: [SecureDocs YouTrack](https://securedocs.youtrack.cloud/). Each student uses their own account. Danial coordinates submission assembly; Aslan checks the consistency of the evidence, prototype and evaluation materials. Both are responsible for reviewing each other's changes.

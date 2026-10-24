@@ -1,5 +1,7 @@
 # 7 Architecture and diagrams
 
+The architecture separates the implemented browser workflow and local validator from the proposed protected service. Immutable document versions, sequential decisions and recipient grants define the consistency model. Context, use-case and component diagrams expose responsibilities and trust boundaries, while the threat analysis maps future controls to verification conditions.
+
 ## System context and trust boundaries
 
 SecureDocs is intended to connect a student, a sending organisation and receiving organisations around versioned educational documents. External registries, university platforms and partner systems remain outside team control. Their APIs and trust agreements are unconfirmed. The final-project demonstration must involve three organisations; the current synthetic profile names only a sender and one recipient.
@@ -54,3 +56,9 @@ TLS protects a channel under its trust model; a file hash is neither a signature
 ## Integration acceptance
 
 The browser-generated manifest passed the schema and semantic validator with `--require-active`. The download action uses `SecureDocsManifest.buildManifest(state, {role, now})`; no alternative manifest format is constructed. Browser checks exercised invalidation, revocation and expiry denial, wrong-role/order actions, reasoned return, duplicate-send rejection, keyboard operation and narrow layout. If the builder is absent, export is disabled with an integration-pending explanation. These local checks establish demonstration integration, not production security or institutional approval; consolidated final assembly results remain separate.
+
+## Current limitations
+
+The implementation is a synthetic browser demonstration with local manifest validation. Production authentication, tenant isolation, PDF/OCR processing, live registry calls, signatures, protected storage and persistent audit are planned. Role selection and source checks are simulated; schema validity cannot establish authenticity, institutional authority or a legal signature. Revocation blocks future permitted downloads but cannot erase existing copies.
+
+Institutional approval roles, integration access and receiving-system contracts require confirmation. User benefit, extraction accuracy and production performance have not been measured; [section 9](09-verification.md) defines their evaluation. Source-specific uncertainty remains beside the relevant findings in [section 2](02-relevance.md).

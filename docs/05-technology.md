@@ -1,5 +1,7 @@
 # 5 Technology comparison
 
+FastAPI, PostgreSQL and a database-backed worker are selected as the proposed production stack because they fit the document-processing domain and transactional workflow. The current increment uses browser JavaScript and a Node.js/Ajv validator. The comparisons explain trade-offs and implementation effort rather than claiming benchmark superiority.
+
 ## Decision basis
 
 The team has two contributors, a document-oriented domain and an intended Python processing pipeline. Correct version references, recoverable failure handling and tenant separation matter more than unmeasured throughput rankings. Comparisons below are design judgements based on primary documentation, consulted on 24 October 2026. They are not benchmark results. The JavaScript manifest module, browser UI/workflow model and Node validator are implemented in this increment; the server, database and worker remain planned.
@@ -49,6 +51,6 @@ TLS and protected storage are proposed for production. A hash detects a byte cha
 
 Keys must be managed separately from encrypted data with controlled access, recovery and rotation, following the design principles in [OWASP cryptographic storage guidance](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html). Server-side OCR requires server access to plaintext, so the proposed OCR architecture must not be advertised as end-to-end encryption from student to recipient.
 
-The present fixture hash is SHA-256 of the UTF-8 string `SecureDocs synthetic fixture v1`, with **no trailing newline**: `b07a05e8e843826674eebcf130f4bbdcb0ea4f1e5e1a2de6b28ddf8cda71c448`. It is not the hash of a student PDF. The tests independently recompute it. `learning_agreement` is the retained schema code for the synthetic ISP, not a claim of external Learning Agreement compliance.
+The fixture uses a reproducible synthetic SHA-256 value, independently checked by the manifest tests; it represents no student PDF. `learning_agreement` is the retained schema code for the synthetic ISP, not a claim of external Learning Agreement compliance.
 
 Threats, proposed controls and verification conditions are mapped in section 7. Revisit technology choices if a permitted external API imposes a different exchange/signature profile, operational recovery tests fail, or measured processing requirements change. Use only synthetic documents until the team has established an authorised processing basis and controls for real records.

@@ -1,5 +1,7 @@
 # 3 Literature review
 
+The review compares sixteen sources, including eight scientific publications, to inform credential trust, document extraction and exchange design. The main decisions are to separate authenticity from structural validation and require human confirmation of extracted fields. Local extraction quality and workflow benefit require project-specific evaluation.
+
 ## Questions and selection
 
 This targeted critical review asks how educational claims gain trust, how controlled disclosure differs from authenticity, and how document fields can be extracted without treating recognition as verification. Eight scientific publications (L1–L8) are compared below; standards and official system documentation (L9–L16) are used separately. Primary publisher, author and official pages were checked on 24 October 2026. This is not a systematic search with a claimed exhaustive corpus.
