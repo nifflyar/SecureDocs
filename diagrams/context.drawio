@@ -8,7 +8,7 @@
         <mxCell id="title" value="SecureDocs | System context" style="whiteSpace=wrap;html=0;fillColor=none;strokeColor=#102a43;fontColor=#102a43;fontSize=30;fontFamily=Arial;text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="32" y="22" width="1216" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" value="Intended mobility system • Current increment: synthetic export and validation only" style="whiteSpace=wrap;html=0;fillColor=none;strokeColor=#486581;fontColor=#486581;fontSize=17;fontFamily=Arial;text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+        <mxCell id="subtitle" value="Current increment: synthetic workflow, JSON export and validation" style="whiteSpace=wrap;html=0;fillColor=none;strokeColor=#486581;fontColor=#486581;fontSize=17;fontFamily=Arial;text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
           <mxGeometry x="32" y="72" width="1216" height="42" as="geometry" />
         </mxCell>
         <mxCell id="sending" value="Sending organisation" style="whiteSpace=wrap;html=0;fillColor=#f0f4f8;strokeColor=#486581;fontColor=#486581;fontSize=18;fontFamily=Arial;rounded=0;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;dashed=1;" vertex="1" parent="1">
